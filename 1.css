@@ -1,10 +1,15 @@
+*{
+	
+}
 body{
 	font-family: "segoe ui";
+	background-color: #BFBCBC;
+	
 }
 h1{
 	text-align: center;
 }
 img{
 	width: 50%;
-	
+
 }
