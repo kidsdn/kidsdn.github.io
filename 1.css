@@ -50,11 +50,6 @@ li.nav-item{
 	
 	margin: 0 17px;
 }
-@media (max-width: 576px){
-	*{
-
-	}
-}
 
 @media (max-width: 576px){
 	a.navbar-brand{
@@ -73,10 +68,6 @@ li.nav-item{
  	}
 
 }
-/*@media (max-width: 576px){}
-button .navbar-toggler {
-    margin: auto;
-}*/
 
 .khoitt1 {
     height: 100%;
