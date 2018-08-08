@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a.btn.btn-primary {
+    background: black;
+    width: 180px;
+    border: none;
+    border-radius: 0px;
+}
+.tt {
+	width: 100%;
+    z-index: 2;
+    position: relative;
+    padding-top: 15%;
+}
+.tt img {
+	border-radius: 50%;
+}
+
+.tt h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+
+.tt p {
+    font-size: 16px;
+    line-height: 22px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.tt p {
+    color: #000;
+}
+
+a.nav-link{
+    font-family: segeo ui;
+    text-transform: uppercase;
+    color: #101010!important;
+    font-size: 13px;
+}
+
+li.nav-item{
+	
+	margin: 0 17px;
+}
+@media (max-width: 576px){
+	*{
+
+	}
+}
+
+@media (max-width: 576px){
+	a.navbar-brand{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	button.navbar-toggler {
+    margin: auto;
+ 	}
+ 	.tt img {
+ 		margin-top: 100px;
+ 	}
+ 	h2.tieudecap2{
+ 		margin-top:15px;
+ 	}
+
+}
+/*@media (max-width: 576px){}
+button .navbar-toggler {
+    margin: auto;
+}*/
+
+.khoitt1 {
+    height: 100%;
+    width: 100%;
+    background: #e9585f;
+    position: relative;
+}
+.khoitt1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #e4555b!important;
+    z-index: 1;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.tieudeto {
+  	margin-top: 80px;
+    margin-bottom: 30px;
+}
+h2.tieudecap2 {
+    font-weight: normal;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom:40px;
+
+}
+.khoittnho h3.tieudecap3 {
+    font-size: 16px;
+    color: #e35855;
+    margin-bottom: 20px;
+}
+.khoittnho p{
+	font-size: 13px;
+	line-height: 21px;
+	color: #636363;
+}
+
+span.motaqt {
+    font-size: 14px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.xuong {
+    width: 30px;
+    height: 60px;
+    border: white solid 1px !important;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 2%;
+    margin-left: -15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+}
+.xuong:hover {
+    bottom: 3%;
+}
+.xuong:before {
+    content: "";
+    width: 4px;
+    height: 8px;
+    position: absolute;
+    background: white;
+    left: 50%;
+    bottom: 72%;
+    margin-left: -2px;
+}
